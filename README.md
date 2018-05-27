@@ -2,6 +2,10 @@
 
 A basic tool to maintain parking slots with some querying abilities.
 
+#### Requirements
+
+Node.js 9.3.0 or higher
+
 #### Usage
 To use the app in an interactive shell mode.
 ```
