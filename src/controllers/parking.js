@@ -75,3 +75,4 @@ const actionHandler = {
 };
 
 exports.issueCommand = (input) => actionHandler[U.getAction(input)](...U.getAttributes(input));
+exports.PLObj = p;
