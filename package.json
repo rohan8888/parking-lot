@@ -1,0 +1,21 @@
+{
+  "name": "parking_lot",
+  "version": "1.0.0",
+  "description": "A utility to maintain slots at a parking lot and query information from it.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "parking",
+    "lot",
+    "functional",
+    "interactive"
+  ],
+  "author": "Rohan.Awad",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
