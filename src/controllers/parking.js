@@ -52,8 +52,9 @@ const leave = function (slot) {
 };
 
 const print = (str) => {
-    if(str) console.log(str)
-    else console.log("Not found");
+    str = str ? str : "Not found";
+    console.log(str);
+    return str;
 };
 
 // Standard filter functions. Can use a common function if using a functional library.
@@ -75,4 +76,10 @@ const actionHandler = {
 };
 
 exports.issueCommand = (input) => actionHandler[U.getAction(input)](...U.getAttributes(input));
+
+// Exporting for test cases.
+exports.getAvailableSlot = getAvailableSlot;
+exports.filterRegWithColor = filterRegWithColor;
+exports.filterSlotWithColor = filterSlotWithColor;
+exports.findSlotForRegn = findSlotForRegn;
 exports.PLObj = p;
