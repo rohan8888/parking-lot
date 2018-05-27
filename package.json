@@ -4,7 +4,7 @@
   "description": "A utility to maintain slots at a parking lot and query information from it.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "find ./test -name '*.js' | xargs ./node_modules/mocha/bin/mocha -R spec"
   },
   "keywords": [
     "parking",
