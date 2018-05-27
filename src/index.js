@@ -1,3 +1,10 @@
-const io = require("./execmode").setupExecMode();
+/*
+* Entry point for the app.
+* Checks the execution mode (CLI or file input) and delegates the commands to a common controller.
+* */
 
-io.on("line", );
+
+const io = require("./init/execmode");
+const pc = require("./controllers/parking");
+
+io.on("line", pc.issueCommand);
