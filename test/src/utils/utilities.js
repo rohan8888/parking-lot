@@ -1,4 +1,4 @@
-const U = require("../../src/utils/utilities");
+const U = require("../../../src/utils/utilities");
 const expect = require("chai").expect;
 
 describe("Command parsing test", function(){
